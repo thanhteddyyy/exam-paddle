@@ -1,0 +1,26 @@
+dpi: 300
+ocr:
+  enabled: auto            # auto | always | never
+  downscale_dpi: 150
+  lang: vi
+input:
+  two_column: false        # manual toggle only
+  deskew: auto             # auto (scans only) | true | false
+  whiten_background: false
+page:
+  mode: a4                 # a4 | continuous
+  margin_top_mm: 10
+  margin_bottom_mm: 10
+  fit_width: false
+  allow_split_tall_block: true
+slicing:
+  snap_search_mm: 15       # search for white lines above anchor within this range
+  ink_threshold: 0.002     # max ink pixel ratio for a line to be considered white
+  trim_keep_mm: 1.5        # margin preserved after trimming
+  question_left_margin_tolerance: 0.04   # ratio of page width
+padding:
+  preset: vua
+  line_spacing_factor: 1.5
+  fallback_line_height_mm: 7
+  per_type: {}             # empty = inherit from preset
+  overrides: {}

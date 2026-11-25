@@ -1,0 +1,24 @@
+header:
+  value: 0
+  unit: mm
+  start_on_new_page: false
+section:
+  value: 5
+  unit: mm
+  start_on_new_page: false
+mcq:
+  value: 2
+  unit: lines
+  start_on_new_page: false
+true_false:
+  value: 0.5
+  unit: page
+  start_on_new_page: false
+short_answer:
+  value: 0.5
+  unit: page
+  start_on_new_page: false
+other:
+  value: 0
+  unit: mm
+  start_on_new_page: false
